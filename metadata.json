@@ -1,0 +1,8 @@
+{
+  "name": "Election Saathi",
+  "description": "An AI-powered assistant that helps Indian citizens understand the election process.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
