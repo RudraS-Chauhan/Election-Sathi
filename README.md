@@ -24,7 +24,25 @@
 - [Chosen Vertical](#-chosen-vertical)
 - [Problem Statement](#-problem-statement)
 - [Key Features](#-key-features)
-- [Google Services Used](#-google-services-used)
+- [Google Services Used](## Google Services Integration
+
+### 1. Google Gemini 2.0 Flash (Primary AI Engine)
+- API endpoint: generativelanguage.googleapis.com
+- Used for: all Q&A, quiz explanations, voice query processing
+- Implementation: fetch() POST to Gemini REST API
+
+### 2. Google Maps Embed API  
+- Used for: polling booth locator map
+- Implementation: iframe embed + Maps search redirect
+- No billing required: uses free embed tier
+
+### 3. Google AI Studio
+- Used for: entire app development and prototyping
+- Platform: aistudio.google.com
+
+### 4. Web Speech API (Google Chrome)
+- Used for: voice input in chat interface
+- Implementation: window.SpeechRecognition)
 - [How It Works](#-how-it-works)
 - [Architecture](#-architecture)
 - [Getting Started](#-getting-started)
